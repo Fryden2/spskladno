@@ -1,0 +1,11 @@
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8">
+        <title>Graf ve Flasku</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}">        
+    </head>
+    <body>
+        <h1>interaktivní graf</h1>
+        <div>{{ graph_html|safe }}</div>
+    </body>
+</html>
